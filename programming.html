@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<!--Name: Jay WIlliams
+	PROG PURPOSE: Chapter 5: Programming Algorithms & Software Testing.-->
+<html lang="en">
+<head>
+	<title> <h1>Chapter 5: Programming Algorithms & Software Testing</h1> </title>
+</head>
+<body style = "color:#7C8019;background-color:#0ECA9C; font-family:arial, verdana, calibri, sans-serif;">
+<h1 style = "color:#262720;">Chapter 5: Programming Algorithms & Software Testing</h1>
+<table border="4" Style="text-align:center;" width="560"
+	<tr style="font-weight: bold: font-size:120%;">
+<ul>
+	<h2 style = "color:#262720;">Phases of computer program development</h2>
+		<li>Phase 1: Understand the problem</li>
+		<li>Phase 2:Design an algorithm to solve the problem</li>
+		<li>Phase 3: Write the program code in appropriate language based on the algorithm</li>
+		<li>Phase 4: Enter the prgram and save</li>
+		<li>Phase 5:Execute the program</li>
+		<li>Phase 6:Test the prgram, find error and debugm then retest</li>
+		<li>Phase 7: Document and evaluate the program</li>
+	<h2 style = "color:#262720;">Programming structures:</h2>
+		<h3 style = "color:#BA0311;">Sequential structure: Top-down execution</h3>
+		<h3 style = "color:#BA0311;">Decision structures: if/then/else</h3>
+		<h3 style = "color:#BA0311;">Iterative (Looping):</h3>
+			<li>while loop: continue loopins as long something is true</li>
+			<li>for loop: loop a given number of times</li>
+		<h3 style = "color:#BA0311;">Recursive structures:</h3>
+			<li>Repeat a set of instructions as a subtask of itself</li>
+			<li>Repetition continue until:</li>
+				degenerative case, which is a termination condition, is met
+				(degenerative case is also called a "base case"
+	<h2 style = "color:#262720;">Two classic programming/database problems</h2>
+		<h3 style = "color:#BA0311;">Sorting: Descending order/Ascending order</h3>
+			<li>Sorting numbers</li>
+			<li>Sorting strings (in accordance with ASCII values)</li>
+		<h3 style = "color:#BA0311;">Searching: find specific data that meet a certain criteria</h3>
+			<li>In database:</li>
+				Filters: temporary search
+				Queries: search criteria are saved so they don't have to be recreated
+		<h3 style = "color:#BA0311;">Two popular search techniques:</h3>
+			<li>Sequential search: search from top to bottom or bottom to top, one item at a time</li>
+			<li>Binary search:</li>
+				only works if data is SORTED first
+				start in the middle, then go to half of that, etc.
+	<h2 style = "color:#262720;">Two classic prgram goals:</h2>
+		<h3 style = "color:#BA0311;">Sorting: Descending order/Ascending order</h3>
+			<li>Sorting numbers</li>
+			<li>Sorting strings (in accordance with ASCII values)</li>
+		<h3 style = "color:#BA0311;">Searching: find specific data that meet a certain criteria</h3>
+			<li>In database:</li>
+				<li>Filters: temporary search</li>
+				<li>Queries: search criteria are saved so they don't have to be recreated</li>
+		<h3 style = "color:#BA0311;">Two popular search techniques</h3>
+			<li>Sequential search: search from top to bottom or bottom to top, one item at a time</li>
+			<li>Binary search</li>
+				<li>only works if data is SORTED first. start in middle, then go to half of that</li>
+		<h3 style = "color:#BA0311;">Two classic program goals</h3>
+			<li>Efficiency: Program takes minimal time and/or resources</li>
+			<li>COrrectness: Program runs in expected ways and works for all expected conditions</li>
+	
+		</ul>
+
+<tr>
+	<td colspan = "4"><h3 style = "color:#262720;">Software Testing and Verification</h3></td>
+	</tr>
+<tr>
+	<td colspan = "4">Kinds of tests:</td>
+	</tr>
+<tr>
+	<td colspan = "2">Acceptance testing</td>
+	<td colspan = "2">Verifying whether the whole system works as intended</td>
+	</tr>
+<tr>
+	<td colspan = "2">Integration testing</td>
+	<td colspan = "2">Ensuring that software components or functions operate together</td>
+	</tr>
+<tr>
+	<td colspan = "2">Unit testing</td>
+	<td colspan = "2">Validating that each software unit performs as expected. A unit is the smallest testable component of an applocation</td>
+	</tr>
+<tr>
+	<td colspan = "2">Functional testing</td>
+	<td colspan = "2">Checking functions by emulating business scenarioas, based on functional requirements. Black-box testing is a common way to verify functions</td>
+	</tr>
+<tr>
+	<td colspan = "2">Performance testing</td>
+	<td colspan = "2">Testing how the software performs under different workloads. Load testing, for example, is used to evaluate performance under real-life load conditions</td>
+	</tr>
+<tr>
+	<td colspan = "2">Regression testing</td>
+	<td colspan = "2">Checking whether new features break or degrade functionality. Sanity testing can be used to verigy menus, functions and commands at the surface
+			level, when there is no time for a full regression test</td>
+	</tr>
+<tr>
+	<td colspan = "2">Stress testing</td>
+	<td colspan = "2">Testing how much strain the system can take before it fails. Considered to be a type of non-functioning testing</td>
+	</tr>
+<tr>
+	<td colspan = "2">Usability testing</td>
+	<td colspan = "2">Validating how well a customer can use a system or web application to complete a task</td>	
+	</tr>
+<tr>
+	<td colspan = "4"><h3 style = "color:#262720;">Software Testing is Done to Detect</h3></td>
+	</tr>
+<tr>
+	<td colspan = "4">Architectural flaws</td>
+	</tr>
+<tr>
+	<td colspan = "4">Poor design decisions</td>
+	</tr>
+<tr>
+	<td colspan = "4">Invalid or incorrect functionality</td>
+	</tr>
+<tr>
+	<td colspan = "4">Security vulnerabilities</td>
+	</tr>
+<tr>
+	<td colspan = "4">Scalability issues</td>
+	</tr>
+<tr>
+	<td colspan = "4"><h3 style = "color:#262720;">Testing Best Practices</h3></td>
+	</tr>
+<tr>
+	<td colspan = "2">Continues testing</td>
+	<td colspan = "2">Project teams test each build as it becomes available. This type of softwar testing relies on test automation that is
+			integrated with the deployment process. It enables software to be validated in realistic test enviroments earlier in 
+			the process- improving design and reducing risks</td>
+	</tr>
+<tr>
+	<td colspan = "2">Configuration managment</td>
+	<td colspan = "2">Organizations centrally maintain test assets and track what software builds to test. Teamsgain access to assets such as
+			code, requirements, design documents, models,test scripts, and test results. Good systems include user authentication and audit trails to hel
+			teams meet compliance requirements with minimal administrative effort</td>
+	</tr>
+<tr>
+	<td colspan = "2">Service virtualization</td>
+	<td colspan = "2">Testing enviroments may not be available, especially early in code development. Service virtualization simulates the services and systems that are missing or
+			not yet completed, enabling teams to reduce dependencies and test sooner. They can reuse, deploy and change a configuration to test different
+			scenerios without having to modigy the original enviroment</td>
+	</tr>
+<tr>
+	<td colspan = "2">Defect or "bug tracking"</td>
+	<td colspan = "2">Monitoring defects is important to both testing and developmentteams for measuring and improving quality. Automate tools allow teams
+			to track defects, measure their scope and impact, and uncover related issues.</td>
+	</tr>
+<tr>
+	<td colspan = "2">Metrics and reporting</td>
+	<td colspan = "2">Reporting and analytics enable team members to share status, goals and test results. Advanced tools integrated project metrics
+			and present results in a dashboard. Teams quickly see the overall health of a project and can monitor relationshps between
+			test, development and other project elements</td>
+	</tr>
+<tr>
+	<td colspan = "4"><a href="https://www.ibm.com/topics/software-testing/"> IBM What is software testing? </a></td>
+	</tr>
+</table>
+	
+
+
+</body>
+</html>
